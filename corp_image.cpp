@@ -92,7 +92,6 @@ int resizeAspect(cv::Mat im, int w, int h, cv::Mat& im_resized)
 
     if (im.empty()) {
         std::cerr << __FUNCTION__ << " : input image is empty" << std::endl;
-        //RDK_LOG(RDK_LOG_ERROR,"LOG.RDK.SMARTTHUMBNAIL","%s(%d):input image is empty.\n", __FUNCTION__ , __LINE__);
         return -1;
     }
 
